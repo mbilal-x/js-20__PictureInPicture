@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    background-color: rgb(40, 40, 40);
+    margin: 1rem;
+    color: white;
+}
+
+main{
+    display: grid;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+}
+
+button{
+    color: rgb(255, 255, 255);
+    -webkit-box-shadow: -1px 6px 16px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 6px 16px -5px rgba(0,0,0,0.75);
+box-shadow: -1px 6px 16px -5px rgba(0,0,0,0.75);
+    background-color: rgb(17, 17, 17);
+    padding: 2rem;
+    font-size: 1.5rem;
+    border-style: groove;
+    border-radius: 20px;
+    margin-top: 10rem;
+    transition-property: transform;
+    text-transform: uppercase;
+}
+
+button:active{
+    transform: scale(95%);
+}
+
